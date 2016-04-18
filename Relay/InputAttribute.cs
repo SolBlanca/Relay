@@ -10,6 +10,10 @@ namespace Relay
     {
         public string Name { get; private set; }
 
+        public InputAttribute()
+        {
+
+        }
         public InputAttribute(string name)
         {
             Name = name;

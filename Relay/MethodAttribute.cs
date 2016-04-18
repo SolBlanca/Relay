@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Relay
 {
-    public class Scheduler
+    public class MethodAttribute : Attribute
     {
+
     }
 }

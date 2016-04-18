@@ -16,5 +16,14 @@ namespace Relay
         // instance id
 
         // server address
+        public Guid Identifier { get; set; }
+
+        public Type Type { get; set; }
+    }
+
+    public enum AddressType
+    {
+        Input,
+        Output,
     }
 }
